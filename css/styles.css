@@ -543,6 +543,14 @@ a {
 }
 
 /* Иконки футера*/
+.sotial-icons {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  align-items: baseline;
+
+  padding-top: 15px;
+}
 
 .sotial-icons-text {
   display: flex;
