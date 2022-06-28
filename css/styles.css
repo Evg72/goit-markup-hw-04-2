@@ -497,7 +497,10 @@ a {
   background-color: #212121;
 }
 .futer-conteiner {
+  display: flex;
+  align-items: baseline;
 }
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -552,7 +555,7 @@ a {
   display: block;
   align-items: center;
   justify-content: center;
-  align-items: baseline;
+  margin-left: 70px;
 }
 
 .sotial-icons-text {
@@ -667,7 +670,7 @@ a {
 .card-set-item {
   flex-basis: calc((100% - var(--indent) * var(--items)) / var (--items));
   margin: calc(var(--indent) / 2);
-  border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
