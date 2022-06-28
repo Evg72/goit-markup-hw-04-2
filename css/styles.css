@@ -489,12 +489,15 @@ a {
 /*Футер*/
 
 .futer {
+  display: flex;
+
   padding-bottom: 60px;
   padding-top: 60px;
-
+  margin-right: 0;
   background-color: #212121;
 }
-
+.futer-conteiner {
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
