@@ -516,6 +516,8 @@ a {
 /* Address list  */
 .address {
   margin-top: 20px;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .address .link:hover,
@@ -548,8 +550,6 @@ a {
   align-items: center;
   justify-content: center;
   align-items: baseline;
-
-  padding-top: 15px;
 }
 
 .sotial-icons-text {
