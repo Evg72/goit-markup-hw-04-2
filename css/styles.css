@@ -494,7 +494,7 @@ a {
   padding-bottom: 60px;
   padding-top: 60px;
   margin-right: 0;
-  background-color: #212121;
+  background-color: #2f303a;
 }
 .futer-conteiner {
   display: flex;
@@ -560,7 +560,8 @@ a {
 
 .sotial-icons-text {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  align-items: baseline;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
